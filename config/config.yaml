@@ -1,0 +1,62 @@
+# config/config.yaml
+
+# Model Settings
+model_settings:
+  model_path: "gpt2"
+  confidence_threshold: 0.75
+  prediction_window: 3
+  min_samples: 100
+
+# Trading Settings
+trading_settings:
+  # Crypto settings
+  symbols: ['BTC/USDT', 'ETH/USDT', 'SOL/USDT']
+  # Forex settings
+  pairs: ['EUR_USD', 'GBP_USD', 'USD_JPY'] 
+  timeframes:
+    analysis: '1d'
+    entry: '1h'
+    execution: '5m'
+  min_volume: 1000000
+  signal_threshold: 0.5
+  sl_atr_multiple: 1.5
+  tp_atr_multiple: 2.5
+
+# Risk Settings
+risk_settings:
+  max_account_risk: 0.02  # 2% per trade
+  max_position_size: 0.05  # 5% of account
+  max_pair_exposure: 0.10  # 10% per pair
+  max_correlation_exposure: 0.20  # 20% in correlated pairs
+  max_daily_drawdown: 0.05  # 5% daily max drawdown
+  min_risk_reward_ratio: 1.5
+
+# Broker Settings
+broker_settings:
+  # Crypto settings
+  exchange: 'binance'
+  practice: true
+  rate_limit: true
+  api_timeout: 30000
+  # Forex settings
+  broker: 'deriv'
+  app_id: ${DERIV_APP_ID}
+  api_token: ${DERIV_API_TOKEN}
+  account_type: 'demo'  # or 'real' for live trading
+  leverage: 30
+  margin_rate: 0.02
+
+# Session Settings
+session_settings:
+  trading_hours:
+    start: '09:30'
+    end: '16:00'
+  market_holidays: ['2024-01-01', '2024-12-25']
+  session_overlap_only: false
+
+# Logging Settings
+logging_settings:
+  log_trades: true
+  log_signals: true
+  performance_tracking: true
+  save_charts: true

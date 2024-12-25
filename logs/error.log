@@ -1,0 +1,351 @@
+2024-12-19 19:26:31,777 - __main__ - ERROR - Error running trading bot: mrzlab630/lora-alpaca-trading-candles does not appear to have a file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt or flax_model.msgpack. - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:171
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 155, in main
+    components = initialize_components(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 33, in initialize_components
+    ai_model = TradingAIModel(
+               ^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/models/ai_model.py", line 10, in __init__
+    self.model = AutoModelForCausalLM.from_pretrained(model_path).to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3929, in from_pretrained
+    raise EnvironmentError(
+OSError: mrzlab630/lora-alpaca-trading-candles does not appear to have a file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt or flax_model.msgpack.
+2024-12-19 19:44:39,395 - __main__ - ERROR - Error running trading bot: mrzlab630/lora-alpaca-trading-candles does not appear to have a file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt or flax_model.msgpack. - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:171
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 155, in main
+    components = initialize_components(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 33, in initialize_components
+    ai_model = TradingAIModel(
+               ^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/models/ai_model.py", line 10, in __init__
+    self.model = AutoModelForCausalLM.from_pretrained(model_path).to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3929, in from_pretrained
+    raise EnvironmentError(
+OSError: mrzlab630/lora-alpaca-trading-candles does not appear to have a file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt or flax_model.msgpack.
+2024-12-19 19:49:12,952 - __main__ - ERROR - Error running trading bot: mrzlab630/lora-alpaca-trading-candles does not appear to have a file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt or flax_model.msgpack. - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:171
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 155, in main
+    components = initialize_components(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 33, in initialize_components
+    ai_model = TradingAIModel(
+               ^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/models/ai_model.py", line 10, in __init__
+    self.model = AutoModelForCausalLM.from_pretrained(model_path).to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3929, in from_pretrained
+    raise EnvironmentError(
+OSError: mrzlab630/lora-alpaca-trading-candles does not appear to have a file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt or flax_model.msgpack.
+2024-12-19 19:57:48,186 - __main__ - ERROR - Error running trading bot: mrzlab630/lora-alpaca-trading-candles does not appear to have a file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt or flax_model.msgpack. - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:171
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 155, in main
+    components = initialize_components(config)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 33, in initialize_components
+    ai_model = TradingAIModel(
+               ^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/models/ai_model.py", line 10, in __init__
+    self.model = AutoModelForCausalLM.from_pretrained(model_path).to(self.device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/transformers/models/auto/auto_factory.py", line 564, in from_pretrained
+    return model_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/transformers/modeling_utils.py", line 3929, in from_pretrained
+    raise EnvironmentError(
+OSError: mrzlab630/lora-alpaca-trading-candles does not appear to have a file named pytorch_model.bin, model.safetensors, tf_model.h5, model.ckpt or flax_model.msgpack.
+2024-12-19 20:11:29,390 - __main__ - ERROR - Error running trading bot: Ccxt.__init__() missing 1 required positional argument: 'config' - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:171
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 158, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 73, in create_trader
+    broker=setup_broker(broker_type, config),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 50, in setup_broker
+    broker = Ccxt(
+             ^^^^^
+TypeError: Ccxt.__init__() missing 1 required positional argument: 'config'
+2024-12-20 19:14:33,949 - __main__ - ERROR - Error running trading bot: Trader.__init__() got an unexpected keyword argument 'broker' - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:180
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 167, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 81, in create_trader
+    return CryptoTrader(
+           ^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/traders/crypto_trader.py", line 18, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: Trader.__init__() got an unexpected keyword argument 'broker'
+2024-12-23 09:39:37,603 - __main__ - ERROR - Error running trading bot: Trader.__init__() got an unexpected keyword argument 'broker' - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:191
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 178, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 83, in create_trader
+    return CryptoTrader(
+           ^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/traders/crypto_trader.py", line 18, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: Trader.__init__() got an unexpected keyword argument 'broker'
+2024-12-23 09:40:33,999 - __main__ - ERROR - Error running trading bot: cannot import name 'Deriv' from 'brokers.deriv_broker' (/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py) - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:191
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 178, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 94, in create_trader
+    broker=setup_broker(broker_type, config),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 65, in setup_broker
+    from brokers.deriv_broker import Deriv  # Custom Deriv broker implementation
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'Deriv' from 'brokers.deriv_broker' (/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py)
+2024-12-24 20:46:03,533 - __main__ - ERROR - Error running trading bot: cannot import name 'Deriv' from 'brokers.deriv_broker' (/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py) - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:191
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 178, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 94, in create_trader
+    broker=setup_broker(broker_type, config),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 65, in setup_broker
+    from brokers.deriv_broker import Deriv  # Custom Deriv broker implementation
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ImportError: cannot import name 'Deriv' from 'brokers.deriv_broker' (/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py)
+2024-12-24 20:53:00,351 - __main__ - ERROR - Error running trading bot: Can't instantiate abstract class DerivBroker without an implementation for abstract methods '_get_balances_at_broker', '_get_stream_object', '_parse_broker_order', '_pull_broker_all_orders', '_pull_broker_order', '_pull_position', '_pull_positions', '_register_stream_events', '_run_stream', '_submit_order', 'cancel_order', 'get_historical_account_value' - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:189
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 176, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 92, in create_trader
+    broker=setup_broker(broker_type, config),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 64, in setup_broker
+    broker = DerivBroker(
+             ^^^^^^^^^^^^
+TypeError: Can't instantiate abstract class DerivBroker without an implementation for abstract methods '_get_balances_at_broker', '_get_stream_object', '_parse_broker_order', '_pull_broker_all_orders', '_pull_broker_order', '_pull_position', '_pull_positions', '_register_stream_events', '_run_stream', '_submit_order', 'cancel_order', 'get_historical_account_value'
+2024-12-24 20:55:14,230 - __main__ - ERROR - Error running trading bot: Broker must have a data source - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:189
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 176, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 92, in create_trader
+    broker=setup_broker(broker_type, config),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 64, in setup_broker
+    broker = DerivBroker(
+             ^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py", line 22, in __init__
+    super().__init__(name="deriv")
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/lumibot/brokers/broker.py", line 84, in __init__
+    raise ValueError("Broker must have a data source")
+ValueError: Broker must have a data source
+2024-12-24 20:55:14,494 - asyncio - ERROR - [unknown] Error during cleanup: 'DerivBroker' object has no attribute 'ws' - /home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py:328
+2024-12-24 21:10:14,249 - __main__ - ERROR - Error running trading bot: DerivBroker.__init__() got an unexpected keyword argument 'data_source' - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:201
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 188, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 104, in create_trader
+    broker=setup_broker(broker_type, config),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 75, in setup_broker
+    broker = DerivBroker(
+             ^^^^^^^^^^^^
+TypeError: DerivBroker.__init__() got an unexpected keyword argument 'data_source'
+2024-12-24 21:13:14,313 - __main__ - ERROR - Error running trading bot: 'DerivBroker' object has no attribute 'ws' - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:201
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 188, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 104, in create_trader
+    broker=setup_broker(broker_type, config),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 75, in setup_broker
+    broker = DerivBroker(
+             ^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py", line 38, in __init__
+    super().__init__(name="deriv", data_source=data_source)
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/lumibot/brokers/broker.py", line 94, in __init__
+    self.stream = self._get_stream_object()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py", line 77, in _get_stream_object
+    return self.ws
+           ^^^^^^^
+AttributeError: 'DerivBroker' object has no attribute 'ws'
+2024-12-24 21:17:02,098 - brokers.deriv_broker - ERROR - Error initializing connection: server rejected WebSocket connection: HTTP 401 - /home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py:88
+2024-12-24 21:17:02,098 - __main__ - ERROR - Error running trading bot: server rejected WebSocket connection: HTTP 401 - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:201
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 188, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 104, in create_trader
+    broker=setup_broker(broker_type, config),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 75, in setup_broker
+    broker = DerivBroker(
+             ^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py", line 43, in __init__
+    self._initialize_connection()
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py", line 64, in _initialize_connection
+    self.ws = loop.run_until_complete(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 684, in _wrap_awaitable
+    return await awaitable
+           ^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/websockets/legacy/client.py", line 658, in __await_impl__
+    await protocol.handshake(
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/websockets/legacy/client.py", line 328, in handshake
+    raise InvalidStatusCode(status_code, response_headers)
+websockets.exceptions.InvalidStatusCode: server rejected WebSocket connection: HTTP 401
+2024-12-25 03:46:14,062 - brokers.deriv_broker - ERROR - Error initializing connection: server rejected WebSocket connection: HTTP 401 - /home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py:88
+2024-12-25 03:46:14,071 - __main__ - ERROR - Error running trading bot: server rejected WebSocket connection: HTTP 401 - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:201
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 188, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 104, in create_trader
+    broker=setup_broker(broker_type, config),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 75, in setup_broker
+    broker = DerivBroker(
+             ^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py", line 43, in __init__
+    self._initialize_connection()
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py", line 64, in _initialize_connection
+    self.ws = loop.run_until_complete(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 684, in _wrap_awaitable
+    return await awaitable
+           ^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/websockets/legacy/client.py", line 658, in __await_impl__
+    await protocol.handshake(
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/websockets/legacy/client.py", line 328, in handshake
+    raise InvalidStatusCode(status_code, response_headers)
+websockets.exceptions.InvalidStatusCode: server rejected WebSocket connection: HTTP 401
+2024-12-25 04:27:10,856 - brokers.deriv_broker - ERROR - Error initializing connection: [Errno -5] No address associated with hostname - /home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py:90
+2024-12-25 04:27:10,857 - __main__ - ERROR - Error running trading bot: [Errno -5] No address associated with hostname - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:201
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 188, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 104, in create_trader
+    broker=setup_broker(broker_type, config),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 75, in setup_broker
+    broker = DerivBroker(
+             ^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py", line 41, in __init__
+    self._initialize_connection()
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py", line 63, in _initialize_connection
+    self.ws = loop.run_until_complete(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 684, in _wrap_awaitable
+    return await awaitable
+           ^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -5] No address associated with hostname
+2024-12-25 04:27:37,149 - brokers.deriv_broker - ERROR - Error initializing connection: [Errno -5] No address associated with hostname - /home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py:90
+2024-12-25 04:27:37,149 - __main__ - ERROR - Error running trading bot: [Errno -5] No address associated with hostname - /home/jarvis/Documents/personalBuild/AITradingbot/main.py:201
+Traceback (most recent call last):
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 188, in main
+    trader = create_trader(args.type, config, components)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 104, in create_trader
+    broker=setup_broker(broker_type, config),
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/main.py", line 75, in setup_broker
+    broker = DerivBroker(
+             ^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py", line 41, in __init__
+    self._initialize_connection()
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/brokers/deriv_broker.py", line 63, in _initialize_connection
+    self.ws = loop.run_until_complete(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 684, in _wrap_awaitable
+    return await awaitable
+           ^^^^^^^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/websockets/legacy/client.py", line 650, in __await_impl_timeout__
+    return await asyncio.wait_for(self.__await_impl__(), self.open_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/tasks.py", line 520, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/home/jarvis/Documents/personalBuild/AITradingbot/venv/lib/python3.12/site-packages/websockets/legacy/client.py", line 654, in __await_impl__
+    transport, protocol = await self._create_connection()
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1080, in create_connection
+    infos = await self._ensure_resolved(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1456, in _ensure_resolved
+    return await loop.getaddrinfo(host, port, family=family, type=type,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 901, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/socket.py", line 963, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -5] No address associated with hostname

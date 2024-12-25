@@ -1,0 +1,45 @@
+# Trading Framework
+lumibot>=2.0.0
+ccxt>=4.0.0
+
+# AI and Machine Learning
+torch>=2.0.0
+transformers>=4.30.0
+tensorboard>=2.13.0
+
+# Data Processing
+pandas>=2.0.0
+numpy>=1.24.0
+pytz>=2023.3
+
+# Technical Analysis
+ta-lib>=0.4.0
+scipy>=1.10.0
+
+# API Connections
+deriv_api>=0.1.6
+python-binance>=1.0.17
+
+# Data Handling and Storage
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+
+# Logging and Monitoring
+logging>=0.5.1.2
+rich>=13.4.2
+
+# Visualization (for analysis)
+plotly>=5.15.0
+matplotlib>=3.7.1
+
+# Date/Time Handling
+python-dateutil>=2.8.2
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Development Tools
+jupyter>=1.0.0
+black>=23.3.0
+flake8>=6.0.0

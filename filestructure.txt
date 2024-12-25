@@ -1,0 +1,25 @@
+# Project Structure
+trading_bot/
+├── config/
+│   ├── __init__.py
+│   ├── config.yaml          # Configuration settings
+│   └── logging_config.yaml  # Logging configuration
+├── models/
+│   ├── __init__.py
+│   ├── ai_model.py         # AI model wrapper
+│   └── trading_models.py    # Trading strategies
+├── utils/
+│   ├── __init__.py
+│   ├── data_handlers.py    # Data processing utilities
+│   ├── trade_logger.py     # Trade logging functionality
+│   └── risk_manager.py     # Risk management utilities
+├── traders/
+│   ├── __init__.py
+│   ├── crypto_trader.py    # Crypto trading implementation
+│   └── forex_trader.py     # Forex trading implementation
+├── docs/
+│   ├── trades/            # Directory for trade logs
+│   └── setup.md          # Setup instructions
+├── requirements.txt
+├── setup.py
+└── main.py

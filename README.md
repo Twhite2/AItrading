@@ -1,109 +1,105 @@
-# AITrader: AI-Based Forex Trading Bot
+# AI Trading Bot
 
-AITrader is a cutting-edge, AI-powered trading bot designed for the Forex market. By leveraging advanced machine learning models, AITrader analyzes market trends, predicts currency price movements, and executes trades to maximize profitability while minimizing risks.  
-
----
+An AI-powered trading bot for cryptocurrency and forex markets, integrating the LoRA-Alpaca model for market analysis and decision making.
 
 ## Features
-- **Advanced Market Analysis**: Uses AI to analyze historical data, chart patterns, and market sentiment.
-- **Customizable Strategies**: Tailor trading strategies based on risk tolerance and preferences.
-- **Automated Trading**: Executes trades in real-time based on AI-generated signals.
-- **Backtesting Module**: Test your strategies on historical data to evaluate performance.
-- **Performance Monitoring**: Detailed dashboards to monitor trades, profits, and market insights.
-- **Secure & Reliable**: Implements state-of-the-art encryption and APIs for secure brokerage integration.
 
----
+- Supports both cryptocurrency and forex trading
+- AI-powered trading decisions using LoRA-Alpaca model
+- Multi-timeframe analysis
+- Advanced risk management
+- Detailed trade logging and analysis
+- Backtesting capabilities
+- Session-aware trading for forex
+- Comprehensive position monitoring
+
+## Requirements
+
+- Python 3.8 or higher
+- CUDA-capable GPU (recommended)
+- 16GB RAM minimum
+- Internet connection
+- API access to supported exchanges/brokers
 
 ## Installation
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/Twhite2/AItrading.git
-   cd AItrading
-   ```
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd AITradingbot
+```
 
-2. **Set Up Environment**:
-   Install required dependencies in a virtual environment:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
-   ```
+2. Create and activate virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# or
+venv\Scripts\activate  # Windows
+```
 
-3. **Configure API Keys**:
-   Add your Forex brokerage and news API keys in the `config.json` file:
-   ```json
-   {
-       "broker_api_key": "your_broker_api_key",
-       "news_api_key": "your_news_api_key"
-   }
-   ```
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-4. **Train the AI Model (Optional)**:
-   If using custom data, train the model:
-   ```bash
-   python train_model.py --data your_data.csv
-   ```
-
-5. **Run the Bot**:
-   Start AITrader:
-   ```bash
-   python main.py
-   ```
-
----
+4. Configure environment variables:
+Create a `.env` file with your API keys:
+```
+EXCHANGE_API_KEY=your_exchange_api_key
+EXCHANGE_SECRET_KEY=your_exchange_secret_key
+DERIV_API_KEY=your_DERIV_api_key
+DERIV_ACCOUNT_ID=your_DERIV_account_id
+```
 
 ## Usage
-### 1. **Start Trading**
-- Launch the bot using:
-  ```bash
-  python main.py
-  ```
-- The bot will:
-  - Fetch live market data.
-  - Analyze trends using AI models.
-  - Execute trades based on the configured strategy.
 
-### 2. **Monitor Performance**
-- Access the performance dashboard:
-  - View profits, losses, and trade history.
-  - Analyze performance metrics.
+### Live Trading
 
-### 3. **Customize Strategies**
-- Modify strategy settings in `strategies.py`:
-  ```python
-  STRATEGY = {
-      "risk_tolerance": "medium",
-      "take_profit": 0.02,
-      "stop_loss": 0.01
-  }
-  ```
+1. Crypto markets:
+```bash
+python main.py --type crypto
+```
 
----
+2. Forex markets:
+```bash
+python main.py --type forex
+```
 
-## Requirements
-- **Python 3.8+**
-- Libraries: TensorFlow, NumPy, pandas, scikit-learn, matplotlib, transformers
-- Forex Broker API with trading permissions
-- News API for sentiment analysis (optional)
+### Backtesting
 
----
+```bash
+python main.py --type crypto --backtest --start-date 2023-01-01 --end-date 2023-12-31
+```
 
-## Future Improvements
-- **Multi-Asset Trading**: Support for stocks and cryptocurrencies.
-- **Enhanced Risk Management**: AI-driven stop-loss and hedging strategies.
-- **Mobile App Integration**: Monitor and control the bot via a mobile app.
+## Configuration
 
----
+- Edit `config/config.yaml` for trading parameters
+- Edit `config/logging_config.yaml` for logging settings
 
-## Disclaimer
-**AITrader is a tool for educational purposes only. Trading in the Forex market involves significant risk. The creators of AITrader are not responsible for any financial losses incurred while using this software.**
+## Structure
 
----
+```
+AITradingbot/
+├── config/            # Configuration files
+├── models/           # AI and trading models
+├── utils/            # Utility functions
+├── traders/          # Trading implementations
+├── docs/             # Documentation and logs
+└── main.py          # Entry point
+```
+
+## Risk Warning
+
+This software is for educational purposes only. Trading carries significant financial risk, and you should only trade with money you can afford to lose.
 
 ## License
-This project is licensed under the MIT License. See `LICENSE` for details.
 
----
+MIT License - see LICENSE file for details
 
-Feel free to modify and extend AITrader for your trading needs!
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create new Pull Request
